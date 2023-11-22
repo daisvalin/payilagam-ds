@@ -1,0 +1,40 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius:5px;
+  border: 3px solid blue;
+}
+thead th:nth-child(1){
+  width: 20%;
+}
+
+thead th:nth-child(2){
+  width: 20%;
+}
+thead th:nth-child(3){
+  width: 10%;
+}
+thead th:nth-child(4){
+  width: 35%;
+}
+
+th,td{
+padding:20px;
+}
+th{
+letter-spacing:2px;
+}
+td {
+text-align:center;
+}
+th {
+background-color:orange;
+}
+tr:hover
+{
+background-color:yellow;
+}
+caption{
+border:solid 02px;
+}
