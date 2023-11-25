@@ -1,0 +1,34 @@
+input
+{
+border-radius: 50px;
+border: 0.5px solid #ebecee; 
+}
+input:hover
+{
+box-shadow: 10px 5px 5px grey; 
+}
+
+input:active
+{
+background-color: red; 
+}
+
+ul
+{
+display: flex; 
+float: right; 
+list-style-type:none; 
+}
+li
+{
+padding: 10px; 
+}
+
+#sign
+{
+background-color:blue; 
+color: white; 
+padding: 10px; 
+border-radius: 10px; 
+}
+
